@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curious Crow - Explore Finance, Wellness & Spirituality</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">
+            <svg class="crow-icon" viewBox="0 0 40 40" width="40" height="40">
+                <path d="M20 4c-1.5 0-3 .8-4 2l-3 4c-2 2.5-3 5-3 8v4c0 3 1.5 5.5 4 7l2 1.5v5.5h3v-5l2 .5 2-.5v5h3v-5.5l2-1.5c2.5-1.5 4-4 4-7v-4c0-3-1-5.5-3-8l-3-4c-1-1.2-2.5-2-4-2z" fill="#d4a853"/>
+                <circle cx="16" cy="13" r="1.5" fill="#0a0a12"/>
+                <path d="M12 17l-5-1c-1-.2-2 .5-1.5 1.5l3 4c.5.7 1.5.5 1.8-.2l2-3.5" fill="#d4a853"/>
+                <path d="M28 17l5-1c1-.2 2 .5 1.5 1.5l-3 4c-.5.7-1.5.5-1.8-.2l-2-3.5" fill="#d4a853"/>
+            </svg>
+            <span class="logo-text">Curious Crow</span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="finance.html">Finance</a></li>
+            <li><a href="health.html">Health & Wellness</a></li>
+            <li><a href="spirituality.html">Spirituality</a></li>
+            <li><a href="#blog">Blog</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero">
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+        <p class="hero-tagline">Explore. Discover. Transform.</p>
+        <h1 class="hero-title">Feed Your<br><span class="gold-text">Curiosity</span></h1>
+        <p class="hero-description">Your guide to building wealth, nurturing wellness, and awakening the spirit. Curated insights and trusted recommendations for a richer life.</p>
+        <div class="hero-cta">
+            <a href="#niches" class="btn btn-primary">Explore Topics</a>
+            <a href="#blog" class="btn btn-outline">Read the Blog</a>
+        </div>
+    </div>
+    <div class="hero-scroll">
+        <span>Scroll to explore</span>
+        <div class="scroll-line"></div>
+    </div>
+</header>
+
+<!-- Niches Section -->
+<section class="niches" id="niches">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-label">What We Cover</p>
+            <h2 class="section-title">Three Pillars of a <span class="gold-text">Richer Life</span></h2>
+        </div>
+        <div class="niche-grid">
+            <!-- Finance -->
+            <a href="finance.html" class="niche-card">
+                <div class="niche-icon">
+                    <svg viewBox="0 0 48 48" width="48" height="48"><circle cx="24" cy="24" r="20" stroke="#d4a853" stroke-width="1.5" fill="none"/><text x="24" y="30" text-anchor="middle" fill="#d4a853" font-size="20" font-family="Cinzel">$</text></svg>
+                </div>
+                <h3>Finance</h3>
+                <p>Smart money moves, investing strategies, and tools to build lasting wealth on your terms.</p>
+                <span class="niche-link">Explore Finance <span>&rarr;</span></span>
+            </a>
+            <!-- Health -->
+            <a href="health.html" class="niche-card featured">
+                <div class="niche-icon">
+                    <svg viewBox="0 0 48 48" width="48" height="48"><circle cx="24" cy="24" r="20" stroke="#d4a853" stroke-width="1.5" fill="none"/><path d="M24 14c-4-5-12-2-12 5 0 8 12 15 12 15s12-7 12-15c0-7-8-10-12-5z" fill="none" stroke="#d4a853" stroke-width="1.5"/></svg>
+                </div>
+                <h3>Health & Wellness</h3>
+                <p>Nutrition, fitness, and holistic practices to help you feel your absolute best every day.</p>
+                <span class="niche-link">Explore Wellness <span>&rarr;</span></span>
+            </a>
+            <!-- Spirituality -->
+            <a href="spirituality.html" class="niche-card">
+                <div class="niche-icon">
+                    <svg viewBox="0 0 48 48" width="48" height="48"><circle cx="24" cy="24" r="20" stroke="#d4a853" stroke-width="1.5" fill="none"/><path d="M24 8l2 6h6l-5 4 2 6-5-4-5 4 2-6-5-4h6z" fill="none" stroke="#d4a853" stroke-width="1.5"/></svg>
+                </div>
+                <h3>Spirituality</h3>
+                <p>Meditation, mindfulness, and ancient wisdom to deepen your connection with yourself and the universe.</p>
+                <span class="niche-link">Explore Spirit <span>&rarr;</span></span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="featured-products">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-label">Handpicked for You</p>
+            <h2 class="section-title">Top <span class="gold-text">Recommendations</span></h2>
+        </div>
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-badge">Finance</div>
+                <div class="product-image" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);">
+                    <svg viewBox="0 0 80 80" width="80" height="80"><rect x="15" y="25" width="50" height="35" rx="4" stroke="#d4a853" stroke-width="1.5" fill="none"/><line x1="15" y1="38" x2="65" y2="38" stroke="#d4a853" stroke-width="1"/><circle cx="55" cy="48" r="5" stroke="#d4a853" stroke-width="1" fill="none"/></svg>
+                </div>
+                <h4>Best High-Yield Savings Accounts</h4>
+                <p>Compare the top savings accounts earning 4%+ APY in 2026.</p>
+                <a href="#" class="product-link">Read Review &rarr;</a>
+            </div>
+            <div class="product-card">
+                <div class="product-badge wellness">Wellness</div>
+                <div class="product-image" style="background: linear-gradient(135deg, #1a2e1a 0%, #0e3e16 100%);">
+                    <svg viewBox="0 0 80 80" width="80" height="80"><path d="M40 15c0 0-15 10-15 25s15 25 15 25 15-10 15-25-15-25-15-25z" stroke="#d4a853" stroke-width="1.5" fill="none"/><line x1="40" y1="20" x2="40" y2="60" stroke="#d4a853" stroke-width="1"/></svg>
+                </div>
+                <h4>Organic Supplement Guide</h4>
+                <p>The cleanest, most effective supplements for energy and focus.</p>
+                <a href="#" class="product-link">Read Review &rarr;</a>
+            </div>
+            <div class="product-card">
+                <div class="product-badge spirit">Spirit</div>
+                <div class="product-image" style="background: linear-gradient(135deg, #2e1a2e 0%, #3e1650 100%);">
+                    <svg viewBox="0 0 80 80" width="80" height="80"><circle cx="40" cy="40" r="15" stroke="#d4a853" stroke-width="1.5" fill="none"/><circle cx="40" cy="40" r="8" stroke="#d4a853" stroke-width="1" fill="none"/><circle cx="40" cy="40" r="2" fill="#d4a853"/><line x1="40" y1="18" x2="40" y2="25" stroke="#d4a853" stroke-width="1"/><line x1="40" y1="55" x2="40" y2="62" stroke="#d4a853" stroke-width="1"/><line x1="18" y1="40" x2="25" y2="40" stroke="#d4a853" stroke-width="1"/><line x1="55" y1="40" x2="62" y2="40" stroke="#d4a853" stroke-width="1"/></svg>
+                </div>
+                <h4>Meditation App Showdown</h4>
+                <p>Calm vs Headspace vs Insight Timer &mdash; which one wins?</p>
+                <a href="#" class="product-link">Read Review &rarr;</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section class="blog-section" id="blog">
+    <div class="container">
+        <div class="section-header">
+            <p class="section-label">Latest from the Nest</p>
+            <h2 class="section-title">Recent <span class="gold-text">Articles</span></h2>
+        </div>
+        <div class="blog-grid">
+            <article class="blog-card blog-featured">
+                <div class="blog-image" style="background: linear-gradient(135deg, #1a1a2e 0%, #2d1b4e 100%);">
+                    <span class="blog-category">Finance</span>
+                </div>
+                <div class="blog-content">
+                    <time>March 25, 2026</time>
+                    <h3>How I Saved $10,000 in 6 Months Using These 5 Apps</h3>
+                    <p>A step-by-step breakdown of the budgeting tools and savings strategies that actually work in 2026.</p>
+                    <a href="#" class="read-more">Read Article &rarr;</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image" style="background: linear-gradient(135deg, #1a2e1a 0%, #1b4e2d 100%);">
+                    <span class="blog-category wellness">Wellness</span>
+                </div>
+                <div class="blog-content">
+                    <time>March 20, 2026</time>
+                    <h3>The Morning Routine That Changed Everything</h3>
+                    <p>How cold exposure, journaling, and the right supplements transformed my energy levels.</p>
+                    <a href="#" class="read-more">Read Article &rarr;</a>
+                </div>
+            </article>
+            <article class="blog-card">
+                <div class="blog-image" style="background: linear-gradient(135deg, #2e1a2e 0%, #4e1b4e 100%);">
+                    <span class="blog-category spirit">Spirit</span>
+                </div>
+                <div class="blog-content">
+                    <time>March 15, 2026</time>
+                    <h3>Beginner's Guide to Crystal Healing</h3>
+                    <p>Which crystals to start with, how to cleanse them, and the best sets for beginners.</p>
+                    <a href="#" class="read-more">Read Article &rarr;</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter">
+    <div class="container">
+        <div class="newsletter-inner">
+            <div class="newsletter-content">
+                <h2>Join the <span class="gold-text">Flock</span></h2>
+                <p>Get weekly insights on finance, wellness, and spirituality delivered to your inbox. No spam, just good stuff.</p>
+            </div>
+            <form class="newsletter-form" onsubmit="event.preventDefault(); this.querySelector('.btn').textContent='Thanks!'; this.querySelector('.btn').style.background='#2a6e3f';">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <svg class="crow-icon" viewBox="0 0 40 40" width="32" height="32">
+                        <path d="M20 4c-1.5 0-3 .8-4 2l-3 4c-2 2.5-3 5-3 8v4c0 3 1.5 5.5 4 7l2 1.5v5.5h3v-5l2 .5 2-.5v5h3v-5.5l2-1.5c2.5-1.5 4-4 4-7v-4c0-3-1-5.5-3-8l-3-4c-1-1.2-2.5-2-4-2z" fill="#d4a853"/>
+                        <circle cx="16" cy="13" r="1.5" fill="#0a0a12"/>
+                    </svg>
+                    <span class="logo-text">Curious Crow</span>
+                </a>
+                <p>Exploring the intersections of wealth, health, and spirit.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <a href="finance.html">Finance</a>
+                <a href="health.html">Health & Wellness</a>
+                <a href="spirituality.html">Spirituality</a>
+                <a href="#blog">Blog</a>
+            </div>
+            <div class="footer-links">
+                <h4>Company</h4>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Affiliate Disclosure</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Curious Crow. All rights reserved.</p>
+            <p class="affiliate-disclosure">Some links on this site are affiliate links. We may earn a commission at no extra cost to you.</p>
+        </div>
+    </div>
+</footer>
+
+<script>
+// Navbar scroll effect
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+
+// Mobile nav toggle
+const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    navToggle.classList.toggle('open');
+});
+
+// Particle effect
+const canvas = document.getElementById('particles');
+if (canvas) {
+    const ctx = (() => {
+        const c = document.createElement('canvas');
+        c.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none;';
+        canvas.appendChild(c);
+        const resize = () => { c.width = canvas.offsetWidth; c.height = canvas.offsetHeight; };
+        resize();
+        window.addEventListener('resize', resize);
+        return { canvas: c, ctx: c.getContext('2d'), particles: [] };
+    })();
+
+    for (let i = 0; i < 50; i++) {
+        ctx.particles.push({
+            x: Math.random() * ctx.canvas.width,
+            y: Math.random() * ctx.canvas.height,
+            size: Math.random() * 2 + 0.5,
+            speedX: (Math.random() - 0.5) * 0.5,
+            speedY: (Math.random() - 0.5) * 0.3,
+            opacity: Math.random() * 0.5 + 0.2
+        });
+    }
+
+    function animate() {
+        ctx.ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+        ctx.particles.forEach(p => {
+            p.x += p.speedX;
+            p.y += p.speedY;
+            if (p.x < 0) p.x = ctx.canvas.width;
+            if (p.x > ctx.canvas.width) p.x = 0;
+            if (p.y < 0) p.y = ctx.canvas.height;
+            if (p.y > ctx.canvas.height) p.y = 0;
+            ctx.ctx.beginPath();
+            ctx.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+            ctx.ctx.fillStyle = `rgba(212, 168, 83, ${p.opacity})`;
+            ctx.ctx.fill();
+        });
+        requestAnimationFrame(animate);
+    }
+    animate();
+}
+
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+        }
+    });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.niche-card, .product-card, .blog-card, .section-header').forEach(el => {
+    el.classList.add('reveal');
+    observer.observe(el);
+});
+</script>
+
+</body>
+</html>
