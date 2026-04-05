@@ -14,12 +14,7 @@
 <nav class="navbar" id="navbar">
     <div class="nav-container">
         <a href="index.html" class="logo">
-            <svg class="crow-icon" viewBox="0 0 40 40" width="40" height="40">
-                <path d="M20 4c-1.5 0-3 .8-4 2l-3 4c-2 2.5-3 5-3 8v4c0 3 1.5 5.5 4 7l2 1.5v5.5h3v-5l2 .5 2-.5v5h3v-5.5l2-1.5c2.5-1.5 4-4 4-7v-4c0-3-1-5.5-3-8l-3-4c-1-1.2-2.5-2-4-2z" fill="#d4a853"/>
-                <circle cx="16" cy="13" r="1.5" fill="#0a0a12"/>
-                <path d="M12 17l-5-1c-1-.2-2 .5-1.5 1.5l3 4c.5.7 1.5.5 1.8-.2l2-3.5" fill="#d4a853"/>
-                <path d="M28 17l5-1c1-.2 2 .5 1.5 1.5l-3 4c-.5.7-1.5.5-1.8-.2l-2-3.5" fill="#d4a853"/>
-            </svg>
+            <svg class="crow-icon" viewBox="0 0 48 48" width="42" height="42"><circle cx="24" cy="24" r="22" stroke="#d4a853" stroke-width="0.7" fill="none" opacity="0.4"/><circle cx="11" cy="12" r="0.9" fill="#d4a853" opacity="0.6"/><circle cx="36" cy="9" r="0.7" fill="#d4a853" opacity="0.55"/><circle cx="7" cy="23" r="0.5" fill="#d4a853" opacity="0.4"/><circle cx="40" cy="18" r="0.5" fill="#d4a853" opacity="0.4"/><circle cx="20" cy="5" r="0.6" fill="#d4a853" opacity="0.45"/><circle cx="38" cy="32" r="0.4" fill="#d4a853" opacity="0.35"/><!-- Crescent moon (bowl opening upward, horns at y=27) --><path d="M11,27 A13.1,13.1 0 1,1 37,27 A13.9,13.9 0 0,1 11,27 Z" fill="#d4a853"/><!-- Crow body --><ellipse cx="20" cy="23" rx="5.5" ry="3" transform="rotate(-12,20,23)" fill="#d4a853"/><!-- Crow head --><circle cx="24" cy="18.5" r="3.2" fill="#d4a853"/><!-- Beak --><polygon points="27,18 32,18.5 27,20" fill="#d4a853"/><!-- Eye --><circle cx="25.2" cy="17.8" r="0.9" fill="#0a0a12"/><!-- Tail feathers --><path d="M14,24 L9,27.5 L13,25.5 L8.5,27 L13.5,23.5 Z" fill="#d4a853"/><!-- Legs --><line x1="18" y1="26" x2="18" y2="28" stroke="#d4a853" stroke-width="1.2"/><line x1="21" y1="26.5" x2="21" y2="28.5" stroke="#d4a853" stroke-width="1.2"/></svg>
             <span class="logo-text">Curious Crow</span>
         </a>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
@@ -38,10 +33,16 @@
 <!-- Hero Section -->
 <header class="hero">
     <div class="hero-particles" id="particles"></div>
+    <!-- Atmospheric fog layers -->
+    <div style="position:absolute;inset:0;pointer-events:none;z-index:1;">
+        <div style="position:absolute;bottom:0;left:0;right:0;height:35%;background:linear-gradient(to top,rgba(10,10,18,0.9) 0%,transparent 100%);"></div>
+        <div style="position:absolute;top:0;left:0;right:0;height:20%;background:linear-gradient(to bottom,rgba(10,10,18,0.6) 0%,transparent 100%);"></div>
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 40%,rgba(107,63,185,0.07) 0%,transparent 70%);"></div>
+    </div>
     <div class="hero-content">
-        <p class="hero-tagline">Explore. Discover. Transform.</p>
+        <p class="hero-tagline">Seek. Discover. Transform.</p>
         <h1 class="hero-title">Feed Your<br><span class="gold-text">Curiosity</span></h1>
-        <p class="hero-description">Your guide to building wealth, nurturing wellness, and awakening the spirit. Curated insights and trusted recommendations for a richer life.</p>
+        <p class="hero-description">Where wealth, wellness, and the unseen converge. Curated insights and trusted recommendations for those who seek a richer life — in every sense.</p>
         <div class="hero-cta">
             <a href="#niches" class="btn btn-primary">Explore Topics</a>
             <a href="#blog" class="btn btn-outline">Read the Blog</a>
@@ -198,10 +199,7 @@
         <div class="footer-grid">
             <div class="footer-brand">
                 <a href="index.html" class="logo">
-                    <svg class="crow-icon" viewBox="0 0 40 40" width="32" height="32">
-                        <path d="M20 4c-1.5 0-3 .8-4 2l-3 4c-2 2.5-3 5-3 8v4c0 3 1.5 5.5 4 7l2 1.5v5.5h3v-5l2 .5 2-.5v5h3v-5.5l2-1.5c2.5-1.5 4-4 4-7v-4c0-3-1-5.5-3-8l-3-4c-1-1.2-2.5-2-4-2z" fill="#d4a853"/>
-                        <circle cx="16" cy="13" r="1.5" fill="#0a0a12"/>
-                    </svg>
+                    <svg class="crow-icon" viewBox="0 0 48 48" width="32" height="32"><circle cx="24" cy="24" r="22" stroke="#d4a853" stroke-width="0.7" fill="none" opacity="0.4"/><circle cx="11" cy="12" r="0.9" fill="#d4a853" opacity="0.6"/><circle cx="36" cy="9" r="0.7" fill="#d4a853" opacity="0.55"/><circle cx="7" cy="23" r="0.5" fill="#d4a853" opacity="0.4"/><circle cx="40" cy="18" r="0.5" fill="#d4a853" opacity="0.4"/><circle cx="20" cy="5" r="0.6" fill="#d4a853" opacity="0.45"/><circle cx="38" cy="32" r="0.4" fill="#d4a853" opacity="0.35"/><!-- Crescent moon (bowl opening upward, horns at y=27) --><path d="M11,27 A13.1,13.1 0 1,1 37,27 A13.9,13.9 0 0,1 11,27 Z" fill="#d4a853"/><!-- Crow body --><ellipse cx="20" cy="23" rx="5.5" ry="3" transform="rotate(-12,20,23)" fill="#d4a853"/><!-- Crow head --><circle cx="24" cy="18.5" r="3.2" fill="#d4a853"/><!-- Beak --><polygon points="27,18 32,18.5 27,20" fill="#d4a853"/><!-- Eye --><circle cx="25.2" cy="17.8" r="0.9" fill="#0a0a12"/><!-- Tail feathers --><path d="M14,24 L9,27.5 L13,25.5 L8.5,27 L13.5,23.5 Z" fill="#d4a853"/><!-- Legs --><line x1="18" y1="26" x2="18" y2="28" stroke="#d4a853" stroke-width="1.2"/><line x1="21" y1="26.5" x2="21" y2="28.5" stroke="#d4a853" stroke-width="1.2"/></svg>
                     <span class="logo-text">Curious Crow</span>
                 </a>
                 <p>Exploring the intersections of wealth, health, and spirit.</p>
@@ -256,14 +254,16 @@ if (canvas) {
         return { canvas: c, ctx: c.getContext('2d'), particles: [] };
     })();
 
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 90; i++) {
+        const isBig = i < 8; // first 8 are larger star-like particles
         ctx.particles.push({
             x: Math.random() * ctx.canvas.width,
             y: Math.random() * ctx.canvas.height,
-            size: Math.random() * 2 + 0.5,
-            speedX: (Math.random() - 0.5) * 0.5,
-            speedY: (Math.random() - 0.5) * 0.3,
-            opacity: Math.random() * 0.5 + 0.2
+            size: isBig ? Math.random() * 2.5 + 1.5 : Math.random() * 1.5 + 0.3,
+            speedX: (Math.random() - 0.5) * (isBig ? 0.2 : 0.5),
+            speedY: (Math.random() - 0.5) * (isBig ? 0.15 : 0.3),
+            opacity: isBig ? Math.random() * 0.4 + 0.4 : Math.random() * 0.45 + 0.15,
+            pulse: isBig, pulsePhase: Math.random() * Math.PI * 2
         });
     }
 
@@ -276,10 +276,23 @@ if (canvas) {
             if (p.x > ctx.canvas.width) p.x = 0;
             if (p.y < 0) p.y = ctx.canvas.height;
             if (p.y > ctx.canvas.height) p.y = 0;
+            let sz = p.size;
+            let op = p.opacity;
+            if (p.pulse) {
+                p.pulsePhase += 0.02;
+                sz *= 1 + 0.3 * Math.sin(p.pulsePhase);
+                op *= 0.7 + 0.3 * Math.sin(p.pulsePhase);
+            }
             ctx.ctx.beginPath();
-            ctx.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
-            ctx.ctx.fillStyle = `rgba(212, 168, 83, ${p.opacity})`;
+            ctx.ctx.arc(p.x, p.y, sz, 0, Math.PI * 2);
+            ctx.ctx.fillStyle = `rgba(212, 168, 83, ${op})`;
             ctx.ctx.fill();
+            if (p.pulse) {
+                ctx.ctx.beginPath();
+                ctx.ctx.arc(p.x, p.y, sz * 2.5, 0, Math.PI * 2);
+                ctx.ctx.fillStyle = `rgba(212, 168, 83, ${op * 0.08})`;
+                ctx.ctx.fill();
+            }
         });
         requestAnimationFrame(animate);
     }
